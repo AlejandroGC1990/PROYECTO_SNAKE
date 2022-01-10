@@ -12,7 +12,7 @@ class Game {
     this.fps = 10000 / 60;
 
     this.food = [];
-    this.soundFood = new Audio('../sound/food_G1U6tlb.mp3');
+    this.soundFood = new Audio('./sound/food_G1U6tlb.mp3');
     this.soundFoodVol = 0.5;
 
     this.intervalId = undefined;

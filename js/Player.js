@@ -34,7 +34,7 @@ class Player {
     this.body = [];
 
     //Sonido al comer.
-    this.soundNiumi = new Audio('./14.PROYECTO-MÓDULO1-SNAKE/sound/food_G1U6tlb.mp3');
+    this.soundNiumi = new Audio('./sound/food_G1U6tlb.mp3');
   }
 
   //DIBUJA LA CABEZA DE LA SERPIENTE Y EL CUERPO

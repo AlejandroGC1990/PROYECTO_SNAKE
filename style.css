@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    text-align: center;
+    background-image: url(/14.PROYECTO-MÓDULO1-SNAKE/img/azrhf.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #container {
+    width: 65%;
+    height: 950px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .game-intro {
+    float: left;
+    margin: 30% 0 0 0;
+    width: 35%;
+  }
+  
+  #start-button {
+    font-size: 30px;
+    background-color: #13da1d;
+    color: #fff;
+    padding: 20px 40px;
+    border: 0;
+    box-shadow: 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .game-intro p {
+    font-size: 18px;
+    font-family: "Verdana";
+    height: 100%;
+    margin: 50 50 50 50;
+  }
+  
+  #phone {
+    position: relative;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    height: 100%;
+    margin: 0;
+    align-items: center;
+  }
+
+  #imgPhone {
+    height: 810px;
+    width: 810px; 
+    position: absolute;
+    z-index: -1;
+  }
+  
+  #game-board {
+    display: flex;
+    align-items: center;
+    margin-left: 164px;
+    margin-bottom: 152px;
+  }
+
+  canvas {
+    border: solid;
+    position: absolute;
+    z-index: 1;
+  }
